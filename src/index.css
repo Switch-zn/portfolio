@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    button{
+        @apply border py-2 px-3 rounded-full
+    }
+}
+
+.background{
+    background-image: url(../src/assets/natural-products-scenery-wood-forest-form-sun.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
